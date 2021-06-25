@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family:'Big Shoulders Stencil Display', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+/* Home */
+#home{
+    background-image: url(#);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+} 
+#home::after {
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1
+}
+#home .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+
+ #home h1{
+    display: block;
+    width: fit-content;
+    font-size: 5rem;
+    position: relative;
+    color: transparent;
+    margin-bottom: 30px;
+    animation: text_reveal 1s ease forwards;
+}
+
+#home h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color:lightgoldenrodyellow;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+#home p{
+    display: block;
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+
+
+
+
+#home .cta{
+    display: inline-block;
+    padding:10px 30px;
+    margin: 10px;
+    border-radius: 50px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid blue;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+#home .cta:hover{
+    color: white;
+    background-color: blue;
+
+}
+
+/* Home End */
+
+/*About*/
+
+#about .about{
+    flex-direction:column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#about .section-title{
+    font-size: 4rem;
+    font-weight:300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+
+}
+
+#about .section-title span{
+    color: crimson;
+}
+#about .about-top p {
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+
+#about .about-bottom {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#about .about-item{
+    flex-basis: 80%;
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 13px;
+    border-radius: 20px;
+    height: 300px;
+    background-image: url(./img/);
+    background-size: cover;
+    margin: 50px 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#about .about-item::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #2932 0%, #485563 100%);
+    opacity: 0.4;
+    z-index:-1;
+}
+#about .about-bottom .icon{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#abpout .about-bottom .icon h1{
+    display: inline-block;
+}
+#about .about-item h2{
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#about .about-item p{
+    color: black;
+    text-align: center;
+}
+
+
+/*End About*/
+
+/* KeyFrames */
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left:0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal{
+    100%{
+        color:white;
+    }
+}
+
+
+
+/*End KeyFrames */
+
