@@ -202,7 +202,7 @@ p{
 
 /* Home */
 #home{
-    background-image: url(#);
+    background-image: url(./img/stemwarriors.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -243,7 +243,7 @@ p{
     left: 0;
     height: 100%;
     width: 0;
-    background-color:lightgoldenrodyellow;
+    background-color:gold;
     animation: text_reveal_box 1s ease;
     animation-delay: 1s;
 }
