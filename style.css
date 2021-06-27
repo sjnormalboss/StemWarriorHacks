@@ -629,6 +629,7 @@ svg {
 #footer {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 
+
 }
 #footer .footer{
     min-height: 200px;
@@ -672,7 +673,6 @@ svg {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     padding-bottom: 25px;
     font-family: 'Open Sans Condensed', serif;
-    
 
 }
 
