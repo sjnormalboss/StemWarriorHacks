@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const header = document.querySelector('.header.container');
+const faqs = document.querySelectorAll(".faq");
 
 
 
@@ -18,3 +19,9 @@ document.addEventListener('scroll', ()=>{
     }
 })
 
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+    })
+})
