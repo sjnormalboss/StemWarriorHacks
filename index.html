@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>StemWarriorHacks</title>
 </head>
 <body>
@@ -34,7 +36,7 @@
     <!--Home-->
     <section id="home">
         <div class="home container">
-            <div>
+            <div data-aos="fade-up">
                 <h1>StemWarriorHacks<span></span></h1>
                 <p id="date">June 16th-18th</p>
                 <a href="#" type="button" class="cta">Register</a>
@@ -47,14 +49,14 @@
     <!--About-->
     <section id="about">
         <div class="about container">
-            <div class="about-top">
+            <div class="about-top" data-aos="fade-up">
                 <h1 class="section-title">Our M<span>i</span>ss<span>i</span>on</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi metus nisi, molestie a odio sed, scelerisque consequat tortor. Etiam vestibulum, lorem quis interdum bibendum, est eros viverra orci, a posuere orci mauris id augue. </p>
             </div>
-            <div class="about-bottom">
+            <div class="about-bottom" data-aos="fade-up">
         
                 <div class="tracks">
-                    <h1 class="section-title">Our Tracks</h1>
+                    <h1 class="section-title"><span>Our</span> Tracks</h1>
                     <p id="tracks">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi metus nisi, molestie a odio sed, scelerisque consequat tortor. Etiam vestibulum, lorem quis interdum bibendum, est eros viverra orci, a posuere orci mauris id augue.</p>
                 </div>
                 <div class="about-item">
@@ -117,6 +119,220 @@
     <!--End About-->
 
     <!--schedule-->
+    <section id = "schedule">
+        <div class="schedule-container" data-aos="fade-up"> 
+            <h1 class="section-title"><span>E</span>v<span>e</span>nts</h1>
+            <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#day-1" role="tab" type = "button" data-bs-toggle="tab" onclick="ShowAndHide1()">Day 1</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#day-2" role="tab" type="button" data-bs-toggle="tab" onclick="ShowAndHide2()">Day 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#day-3" role="tab" type="button" data-bs-toggle="tab" onclick="ShowAndHide3()">Day 3</a>
+                </li>
+            </ul>
+
+            <h2 class="sub-heading"> Developing Applications for a Cause </h2>
+
+            <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        </div>
+         <!-- Schdule Day 1 -->
+         <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>9:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Beginning of Day 1</h4>
+                </div>
+            </div>
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>4:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Opening Ceremony</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>5:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Guest Speaker</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>7:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Game Night</h4>
+                </div>
+            </div>
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>8:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>End of Day 1</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End Schdule Day 1 -->
+           <!-- Schdule Day 2 -->
+           <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2" style="display: none;">
+            <div class="row schedule-item">
+                
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>9:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Beginning of Day 2</h4>
+                </div>
+            </div>
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>10:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Making Scratch Games</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>11:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Beginners' Python</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>1:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Intro to JavaScript</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>3:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Guest Speaker</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>4:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Beginners' C++</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>6:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Beginners Web/Dev</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>8:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>End of Day 2</h4>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- End Schdule Day 2 -->
+          <!-- Schdule Day 3 -->
+
+        </div>
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3" style="display: none;">
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>9:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Beginning of Day 3</h4>
+                </div>
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>10:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Advanced C++</h4>
+                </div>
+            </div>
+    
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>12:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Advanced Web Dev</h4>
+                </div>
+            </div>
+
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>2:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Discord Bots with JavaScript</h4>
+                </div>
+            </div>
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>4:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Hardware</h4>
+                </div>
+            </div>
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>5:00 PM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>Guest Speaker</h4>
+                </div>
+            </div>
+            <div class="row schedule-item">
+                <div class="col-md-2" style="max-width: 100px">
+                    <time>12:00 AM</time>
+                </div>
+                <div class="col-md-10">
+                    <h4>End of Day 3, and Submission Deadline</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- End Schedule Section -->
+
+</section>
 
     <!--End schedule-->
 
@@ -132,7 +348,7 @@
     <!--Contact-->
 
     <section id ="contact">
-        <div class="contact container">
+        <div class="contact container" data-aos="fade-up">
             <div><h1 class="section-title">Contact <span>Info</span></h1></div>
             <div class="contact-items">
                 <div class="contact-item">
@@ -194,7 +410,55 @@
     <p id="bothersome">Copyright &copy 2021 StemWarriorHacks. All rights reserved.</p>
     <!--End Footer-->
 
-    <script src="./app.js"></script>
-    
+<script src="./app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 900
+    });
+</script>
+<SCRIPT>
+    function ShowAndHide2() {
+        var x = document.getElementById('day-2');
+        var y = document.getElementById('day-3');
+        var z = document.getElementById('day-1');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+            z.style.display = "none";
+            y.style.display = "none";
+        } else {
+            x.style.display = 'block';
+        }
+    }
+    </SCRIPT>
+<SCRIPT>
+    function ShowAndHide1() {
+        var x = document.getElementById('day-1');
+        var y = document.getElementById('day-2');
+        var z = document.getElementById('day-3');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+            y.style.display = "none";
+            z.style.display = "none";
+        } else {
+            x.style.display = 'block';
+        }
+    }
+    </SCRIPT>
+<SCRIPT>
+    function ShowAndHide3() {
+        var x = document.getElementById('day-3');
+        var y = document.getElementById('day-2');
+        var z = document.getElementById('day-1');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+            z.style.display = "none";
+            y.style.display = "none";
+        } else {
+            x.style.display = 'block';
+        }
+    }
+    </SCRIPT>
 </body>
 </html>
