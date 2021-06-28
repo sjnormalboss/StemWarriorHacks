@@ -401,7 +401,7 @@ p{
     border: none;
     border-radius: 50px;
     font-weight: 600;
-    background-color: #0e1b4d;
+    background-color: #14192c;
     color: #fff;
     padding: 10px 100px;
   }
@@ -425,8 +425,8 @@ p{
   }
   
   #schedule .nav-tabs a:hover {
-    background-color: #37517e;
-    color: #fff;
+    background-color: gold;
+    color: black;
   }
   
   #schedule .sub-heading {
@@ -491,14 +491,14 @@ p{
   
   #schedule .schedule-item h4 span {
     font-style: italic;
-    color: #19328e;
+    color: gold;
     font-weight: normal;
     font-size: 16px;
   }
   
   #schedule .schedule-item p {
     font-style: italic;
-    color: #152b79;
+    color: gold;
     margin-bottom: 0;
     text-align: center;
     margin: 0 auto;
