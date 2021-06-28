@@ -198,6 +198,25 @@ p{
 
 }
 
+.img {
+    display: inline-block;
+    padding: 5px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+.img img {
+    border-radius: 40%;
+}
+
+#header h1 {
+    display: inline-block;
+}
+
 /*End Header*/
 
 /* Home */
@@ -636,6 +655,10 @@ svg {
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 10px;
+}
+#footer h1 {
+    display: inline-block;
+    padding-bottom: 20px;
 }
 #footer h2 {
     color: white;
