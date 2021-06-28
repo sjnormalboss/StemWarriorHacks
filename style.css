@@ -284,9 +284,9 @@ p{
     padding:10px 30px;
     margin: 10px;
     border-radius: 50px;
-    color: crimson;
+    color: gold;
     background-color: transparent;
-    border: 2px solid blue;
+    border: 2px solid gold;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -296,7 +296,7 @@ p{
 
 #home .cta:hover{
     color: white;
-    background-color: blue;
+    background-color: gold;
 
 }
 
