@@ -453,6 +453,7 @@ p{
     font-size: 18px;
     font-style: italic;
     margin: 0 auto 30px auto;
+    padding-top: 20px;
   }
   
   @media (min-width: 991px) {
@@ -485,6 +486,10 @@ p{
     align-items: center;
 
   }
+  #schedule .section-title {
+      padding-bottom: 10px;
+  }
+
 
   #schedule .schedule-item .speaker {
     width: 60px;
