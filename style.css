@@ -199,6 +199,9 @@ p{
 
 }
 
+#header h1{
+    display: inline-block;
+}
 .img {
     display: inline-block;
     padding: 5px;
