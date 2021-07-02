@@ -795,7 +795,11 @@ svg {
     #sponsors .sponsor-logo {
         width: 20%;
         display: inline-block;
+        margin: 40px;
 
+    }
+    #sponsors #taskade {
+        width: 60%;
     }
 
     /*End Sponsors*/
