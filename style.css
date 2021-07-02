@@ -788,10 +788,14 @@ svg {
     #sponsors .section-title {
         margin-top: 20%;
     }
-
+    #sponsors .rob {
+        height: 10%;
+        display: inline-block;
+    }
     #sponsors .sponsor-logo {
         width: 20%;
         margin-left: 10%;
+        display: flex;
 
     }
 
