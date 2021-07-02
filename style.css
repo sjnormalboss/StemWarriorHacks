@@ -794,8 +794,7 @@ svg {
     }
     #sponsors .sponsor-logo {
         width: 20%;
-        margin-left: 10%;
-        display: flex;
+        display: inline-block;
 
     }
 
