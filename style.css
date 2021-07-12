@@ -317,10 +317,10 @@ p{
 .section-title span{
     color: gold;
 }
-#about .about-top{
+/* #about .about-top{
     width: 500px;
     margin: 0 auto;
-}
+} */
 #about .about-top p {
     color: black;
     font-size: 1.4rem;
@@ -779,6 +779,11 @@ svg {
     #about .about-bottom .about-item{
         flex-basis: 45%;
         margin: 1.5%;
+    }
+    #about .about-top p,
+    #tracks{
+        font-size: 1.8rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     /*End About*/
