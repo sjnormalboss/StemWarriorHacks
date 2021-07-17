@@ -806,6 +806,28 @@ svg {
     #sponsors #taskade {
         width: 60%;
     }
+    #sponsors .sponsors-container a {
+        display: inline-block;
+        padding:10px 30px;
+        margin: 10px;
+        border-radius: 50px;
+        color: black;
+        background-color: transparent;
+        border: 2px solid black;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: .3s ease;
+        transition-property: background-color, color;
+    }
+
+    #sponsors .sponsors-container a:hover {
+        color: gold;
+        background-color: black;
+        border: gold;
+    }
+
+   
 
     /*End Sponsors*/
 
