@@ -531,6 +531,50 @@ p{
 
 /*End of Event Schedule*/
 
+
+
+/*Sponsors*/
+
+#sponsors .section-title {
+    margin-top: 20%;
+}
+#sponsors .rob {
+    height: 10%;
+    display: inline-block;
+}
+#sponsors .sponsor-logo {
+    width: 80%;
+    display: inline-block;
+    margin: 40px;
+
+}
+#sponsors #taskade {
+    width: 60%;
+}
+#sponsors .sponsors-container a {
+    display: inline-block;
+    padding:10px 30px;
+    margin: 10px;
+    border-radius: 50px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+#sponsors .sponsors-container a:hover {
+    color: gold;
+    background-color: black;
+    border: gold;
+}
+
+
+
+/*End of Sponsors*/
 /*Faq*/
 
 
