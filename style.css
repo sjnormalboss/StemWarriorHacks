@@ -535,6 +535,11 @@ p{
 
 /*Sponsors*/
 
+#sponsors #econhacks {
+    border-radius: 50%;
+    width: 70%;
+}
+
 #sponsors .section-title {
     margin-top: 20%;
 }
@@ -554,7 +559,7 @@ p{
 #sponsors .sponsors-container a {
     display: inline-block;
     padding:10px 30px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 50px;
     color: black;
     background-color: transparent;
