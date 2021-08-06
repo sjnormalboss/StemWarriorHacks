@@ -542,10 +542,15 @@ p{
 
 #sponsors .section-title {
     margin-top: 20%;
+    padding-bottom: 5%;
 }
 #sponsors .rob {
     height: 10%;
     display: inline-block;
+}
+#sponsors .coil {
+    width: 50%;
+    height: 50%;
 }
 #sponsors .sponsor-logo {
     width: 80%;
