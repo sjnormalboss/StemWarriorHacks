@@ -18,7 +18,6 @@ a {
 }
 .container {
     min-height: 100vh;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,6 +47,12 @@ p{
     letter-spacing: .2rem;
     text-align: center;
 
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .brand h1{
@@ -296,7 +301,7 @@ p{
 }
 
 #home .cta:hover{
-    color: white;
+    color: black;
     background-color: gold;
 
 }
@@ -309,10 +314,16 @@ p{
     flex-direction:column;
     text-align: center;
     max-width: 1500px;
+    width: 80%;
     margin: 0 auto;
     padding: 100px 0;
 }
 
+@media (max-width: 767px) {
+    #about .about {
+        width: 95%;
+    }
+  }
 
 .section-title span{
     color: gold;
@@ -402,6 +413,7 @@ p{
     padding: 60px 0 60px 0;
     text-align: center;
     margin: 0 auto;
+    width: 80%;
   }
   
   #schedule .nav-tabs {
@@ -433,6 +445,9 @@ p{
   }
   
   @media (max-width: 767px) {
+    #schedule {
+        width: 95%;
+    }
     #schedule .nav-tabs a {
       padding: 8px 50px;
     }
@@ -756,7 +771,6 @@ svg {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     padding-bottom: 25px;
     font-family: 'Open Sans Condensed', serif;
-
 }
 
 
